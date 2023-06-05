@@ -4,7 +4,7 @@
       padding: 0%;
     }
     .myVideo{
-      max-width: 375px;
+      max-width: 428px;
       height: 30em;
     }
    
@@ -83,7 +83,7 @@
   
   .konference p{
     width: 20em;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     margin-left: 4em;
     grid-column: 1;
@@ -545,6 +545,7 @@
     text-align: center;
    font-family: Helvetica Neue;
    font-style: Italic;
+   font-size: 30px;
   
    
     
@@ -655,12 +656,16 @@
  
      .video-card {
        display: inline-block;
-        margin-left: 6em;
+       
+       padding-left: 3em;
        height: 25em;
        width: 35em;
        transition: transform 0.3s ease;
        margin-bottom: 11em;
+
        
+       
+
       
      }
  
@@ -696,31 +701,31 @@
        text-align: center;
        font-size: 40px;
        margin-top: 2em;
-       margin-bottom: 3em;
+       margin-bottom: 1em;
      }
  
      .konference{
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: 1fr 1fr;
+     display: flex;
+      flex-direction: column;
+     align-items: center;
      }
      .konference p{
-       width: 20em;
-       font-size: 25px;
+       width: 30em;
+       font-size: 20px;
        text-align: center;
-       margin-left: 4em;
-       grid-column: 2;
-       grid-row: 1;
+       
+       
      }
  
      .konference img{
-       width: 40em;
+       width: 50em;
        height: 25em;
        margin-left: 2em;
-       margin-bottom: 5em;
+       margin-bottom: 2em;
        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.369);
        border-top-left-radius: 6px;
        border-top-right-radius: 6px;
+       
      }
 
    :root {
@@ -873,12 +878,11 @@
     z-index: 2;
     background-color: #131414;
     font-family: Helvetica Neue;
-    grid-column: 2;
-    grid-row: 1;
+    
     width: 20em;
     height: 5em;
-    margin-left: 17em;
-    margin-top: 18em;
+   margin-bottom: 4em;
+    
 
   }
   .btn-14:before,
