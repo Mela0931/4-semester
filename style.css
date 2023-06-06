@@ -150,24 +150,29 @@
      }
  
      .konference{
-     display: flex;
-      flex-direction: column;
+     display: grid;
+      grid-template-columns: 1fr 1fr ;
      align-items: center;
+     margin-bottom: 5em;
+     
      }
      .konference p{
        width: 30em;
        font-size: 20px;
        text-align: center;
+       grid-column: 2;
+       grid-row: 1;
        
        
      }
  
      .konference img{
-       
+       grid-column: 1;
        width: 40em;
        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.369);
        border-top-left-radius: 6px;
        border-top-right-radius: 6px;
+       padding-left: 1em;
        
      }
 
@@ -321,10 +326,12 @@
     z-index: 2;
     background-color: #131414;
     font-family: Helvetica Neue;
-    
+    grid-column: 2;
+    grid-row: 1;
     width: 20em;
     height: 5em;
-   margin-bottom: 4em;
+   margin-top: 15em;
+   margin-left: 10em;
     
 
   }
@@ -554,12 +561,20 @@
   text-align: center;
   
 }
+.konference{
+  display: flex;
+  flex-direction: column;
+}
 .konference img{
   max-width: 100%;
 }
 
 .konference p{
   max-width: 100%;
+}
+.btn-14{
+  margin-left: 1em;
+  margin-top: 1em;
 }
 
 }
