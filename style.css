@@ -377,7 +377,6 @@
   width: 800px;
   height: 400px;
   margin: 100px auto;
-  overflow: hidden;
   border-radius: 10px;
   transition: all 0.4s;
 }
