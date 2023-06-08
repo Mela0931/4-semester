@@ -430,7 +430,7 @@
   height: 50%;
 }
 .text{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica Neue;
   width: 100%;
   font-size: 15px;
   font-weight: 400;
@@ -535,13 +535,15 @@
     width: 100%;
 
   }
+  .Program {
+    max-width: 90%;
+    margin-left: 0.5em;
+  }
   
   p{
     font-size: 10px;
   }
  
-  
-    
   .card-image{
   max-width: 100%;
   max-height: 20em;
@@ -549,7 +551,8 @@
  }
  .card{
   display: inline-block;
-  padding: 1em;
+  padding: 5px;
+  margin-top: 0%;
   
  max-width: 100%;
  }
@@ -570,7 +573,8 @@
 }
 
 .konference p{
-  max-width: 100%;
+  max-width: 90%;
+ 
 }
 .btn-14{
   margin-left: 1em;
