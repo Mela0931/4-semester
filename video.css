@@ -82,7 +82,6 @@ section{
 .container2{
     
     flex: 1;
-   
     flex-direction: column;
     padding: 0rem;
 }
@@ -128,8 +127,6 @@ img{
   
   
   .wrapper {
-    
-    
     display: flex;
   }
   
